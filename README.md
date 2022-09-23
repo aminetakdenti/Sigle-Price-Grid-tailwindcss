@@ -33,7 +33,7 @@ Users should be able to:
 
 - Solution URL:
   [Repo Link](https://github.com/aminetakdenti/Sigle-Price-Grid-tailwindcss.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site Url](https://aminetakdenti.github.io/Sigle-Price-Grid-tailwindcss/)
 
 ## My process
 
