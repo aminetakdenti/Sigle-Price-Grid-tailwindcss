@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Single Price Grid Component</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- Css File -->
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body>
+    <!-- Start Section -->
+    <section
+      class="flex items-center justify-center p-8 min-h-screen bg-LightGray md:p-0">
+      <!-- Grid System -->
+      <div
+        class="container mx-auto w-fit md:grid md:grid-cols-2 rounded-lg shadow-2xl overflow-hidden">
+        <!-- First Row -->
+        <div class="flex flex-col md:col-span-2 text-left bg-white p-8">
+          <h1 class="font-bold text-Cyan text-2xl mb-5">Join our community</h1>
+          <h2 class="fon-bold text-BrightYellow mb-3 text-xl">
+            30-day, hassle-free money back guarantee
+          </h2>
+          <p
+            class="text-GrayishBlue text-base leading-relaxed font-bold max-w-xl">
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </p>
+        </div>
+        <!-- Second Row -->
+
+        <!-- First col -->
+        <div class="flex flex-col space-y-4 p-8 bg-Cyan text-white">
+          <h3 class="font-bold text-lg">Monthly Subscription</h3>
+          <div class="flex flex-row items-center">
+            <p class="font-bold text-4xl text-white mr-4">&dollar;29</p>
+            <p class="text-LightGray">per month</p>
+          </div>
+          <p class="text-md">Full access for less than &dollar;1 a day</p>
+          <button
+            class="block font-bold py-3 rounded-lg bg-BrightYellow shadow-xl">
+            Sign Up
+          </button>
+        </div>
+
+        <!-- Second Col -->
+        <div class="flex flex-col space-y-3 p-8 bg-LightCyan text-white">
+          <h3 class="font-bold text-lg">Why Us</h3>
+          <p class="text-md max-w-[15rem] mr-10 text-Gray">
+            Tutorials by industry experts Peer &amp; expert code review Coding
+            exercises Access to our GitHub repos Community forum Flashcard decks
+            New videos every week
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
